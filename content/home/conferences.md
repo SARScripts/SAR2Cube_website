@@ -73,6 +73,6 @@ subtitle = ""
   </div>
   <div class="column">
     <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            src="https://www.youtube.com/watch?v=dnrDfLDciGQ">
     </iframe>
   </div>
