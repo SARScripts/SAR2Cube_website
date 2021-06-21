@@ -72,7 +72,5 @@ subtitle = ""
   <div class="row"><p>June 1st 2021 11:45-12:00</p></div>
   </div>
   <div class="column">
-    <iframe width="420" height="315"
-            src="https://www.youtube.com/watch?v=dnrDfLDciGQ">
-    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dnrDfLDciGQ" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
   </div>
