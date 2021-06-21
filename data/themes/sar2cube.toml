@@ -1,0 +1,26 @@
+# Theme metadata
+name = "sar2cube"
+
+# Is theme light or dark?
+light = false
+
+# Primary
+primary = "#e53935"
+primary_light = "#e53935"
+primary_dark = "#e53935"
+
+# Menu
+menu_primary = "#fff"
+menu_text = "#e53935"
+menu_text_active = "#e53935"
+menu_title = "#fff"
+
+# Home sections
+dark_home_section_odd = "rgb(255, 255, 255)"
+dark_home_section_even = "rgb(247, 247, 247)"
+home_section_odd = "rgb(34, 39, 45)"
+home_section_even = "rgb(40, 44, 50)"
+
+# Links
+link = "#e53935"
+link_hover = "#b71c1c"
