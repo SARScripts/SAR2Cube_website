@@ -63,14 +63,39 @@ subtitle = ""
   clear: both;
 }
 </style>
-
-  <div class="column">
-  <div class="row"><h2><a href="https://fringe.esa.int/agenda/">Fringe 2021</a></h2></div>
-  <div class="row"><h3>Abstract</h3></div>
-  <div class="row"><p>SAR2CUBE: A Data Cube Concept for Providing Both Interferometric and Intensity Based Products through an Open Source Framework.</p></div>
-  <div class="row"><h3>Date</h3></div>
-  <div class="row"><p>June 1st 2021 11:45-12:00</p></div>
-  </div>
-  <div class="column">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dnrDfLDciGQ" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
-  </div>
+<div class="row">
+    <div class="column">
+      <div class="row"><h2><a href="https://fringe.esa.int/agenda/">Fringe 2021</a></h2></div>
+      <div class="row"><h3>Abstract</h3></div>
+      <div class="row"><p>SAR2CUBE: A Data Cube Concept for Providing Both Interferometric and Intensity Based Products through an Open Source Framework.</p></div>
+      <div class="row"><h3>Date</h3></div>
+      <div class="row"><p>June 1st 2021, 11:45-12:00</p></div>
+    </div>
+    <div class="column">
+      <iframe width="560" height="315" src="https://youtu.be/WrXiqh1ykbY?t=618" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="row">
+    <div class="column">
+      <div class="row"><h2><a href="https://nikal.eventsair.com/esa-phiweek-2020/about">ESA PHi Week 2020</a></h2></div>
+      <div class="row"><h3>Abstract</h3></div>
+      <div class="row"><p>SAR2CUBE: A Data Cube Concept for Providing Both Interferometric and Intensity Based Products through an Open Source Framework.</p></div>
+      <div class="row"><h3>Date</h3></div>
+      <div class="row"><p>October 1st 2020, 16:30-18:00</p></div>
+    </div>
+    <div class="column">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dnrDfLDciGQ" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="row">
+    <div class="column">
+      <div class="row"><h2><a href="https://ceos.org/meetings/wgiss-50/">CEOS WGISS-50</a></h2></div>
+      <div class="row"><h3>Topic</h3></div>
+      <div class="row"><p>Data INTEROPERABILITY and USE</p></div>
+      <div class="row"><h3>Date</h3></div>
+      <div class="row"><p>September 23rd 2020, 11:00-13:00</p></div>
+    </div>
+    <div class="column">
+      <h2><a href="http://ceos.org/document_management/Working_Groups/WGISS/Meetings/WGISS-50/2.%20Wednesday%20Sept%2023/2020.09.23_SAR2CUBE.pdf">Slides (PDF)</a></h2></div>
+    </div>
+</div>
