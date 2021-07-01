@@ -9,60 +9,25 @@
   weight = 10
   
 [[main]]
-  name = ""
-  url = "#overview"
-  weight = 15
-
-#[[main]]
-#  name = "Background"
-#  url = "#introduction"
-# weight = 20
-  
-[[main]]
-  name = "Architecture"
-  url = "#architecture"
-  weight = 30
+  name = "SAR Operators"
+  url = "#saroperators"
+  weight = 20
   
 [[main]]
   name = "Use Cases"
   url = "#usecases"
-  weight = 40 
+  weight = 30
   
 [[main]]
   name = "How to"
   url = "#howto"
-  weight = 45
+  weight = 40
   
 [[main]]
   name = "Conferences"
   url = "#conferences"
   weight = 50
   
-#[[main]]
-#  name = "World Terrestrial Ecosystems"
-#  url = "#wte"
-#  weight = 40
-  
-#[[main]]
-#  name = "Methods"
-#  url = "#methods"
-#  weight = 50
-
-#[[main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 20
-
-#[[main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 30
-
-#[[main]]
-#  name = "Publications"
-#  url = "#featured"
-#  weight = 40
-
 [[main]]
   name = "People"
   url = "#people"
@@ -71,12 +36,12 @@
 [[main]]
   name = "Code"
   url = "#code"
-  weight = 65
+  weight = 70
   
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 70
+  weight = 80
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/cv.pdf` and uncomment the lines below.

@@ -6,7 +6,7 @@
 widget = "blank"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+weight = 12  # Order that this section will appear.
 
 title = "Overview"
 subtitle = ""
@@ -51,7 +51,8 @@ subtitle = ""
 +++
 - Project lead: [Eurac Research](https://www.eurac.edu/en/research/mountains/remsen/Pages/default.aspx), Bolzano, Italy
 - Partner: [Dares Technology](http://dares.tech/), Barcelona, Spain
-<span> 
+<span>
+    
 SAR2CUBE as a project foresees the development of a processing chain and prototype implementation for organizing Sentinel-1 SLC data in efficient data cubes, both from the point of view of the data provider and from the point of view of the consumer of the data, to foster the uptake of SAR data into everyday processing chains. This comprises three main layers, pre-processing, data cube setup and post processing on the fly. Different implementation scenarios have been benchmarked, including necessary space requirements for hosting the data, speed of access from the user perspective and processing speed. Finally, three use cases have been defined to test the suitability of the developed SAR data cubes for analysis chains, including analysis of terrain motion with PSI techniques, land cover classification based on interferometric coherence and change detection based on back scatter time series.
 </span>
 

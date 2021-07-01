@@ -6,9 +6,9 @@
 widget = "blank"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 70  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
-title = "Code"
+title = "SAR Operators"
 subtitle = ""
 
 [design]
@@ -49,14 +49,59 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+SAR2Cube has built-in processes for basic and advanced SAR operators, accessible using the openEO API. The current implemented SAR operators are the following:
+<style>
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
 
-<div align="left">
-    <img style="float:center" src="https://github.com/fluidicon.png" width=80px/>
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img.medium {
+  max-width: 500px;
+}
+</style>
+<div class="row">
+    <div class="column" align="left">
+      <div class="row"><h2>Spatial subsetting</h2></div>
+    </div>
+    <div class="column" align="center">
+      <img class="medium" src="/media/spatial_subset.png">
+      <em>The selected area of Bolzano in slant-range.</em>
+    </div>
+</div>
+<div class="row">
+    <div class="column" align="left">
+      <div class="row"><h2>Amplitude/Intensity</h2></div>
+    </div>
+    <div class="column" align="center">
+      <img class="medium" src="/media/amplitude_intensity.png">
+      <em>Amplitude and Intensity over South Tyrol.</em>
+    </div>
+</div>
+<div class="row">
+    <div class="column" align="left">
+      <div class="row"><h2>Interferometric Coherence</h2></div>
+    </div>
+    <div class="column" align="center">
+      <img class="medium" src="/media/VV_coh_4x19.png">
+      <em>6-days VV Coherence over South-Tyrol.</em>
+    </div>
+</div>
+<div class="row">
+    <div class="column" align="left">
+      <div class="row"><h2>Geocoding</h2></div>
+    </div>
+    <div class="column" align="center">
+      <img class="medium" src="/media/VV_coh_4x19_geocoded.png">
+      <em>Geocoded 6-days VV Coherence.</em>
+    </div>
 </div>
 
-The development of SAR2Cube is fully open-source and the code is publicly available on GitHub:
-
-- [preprocessing](https://github.com/SARScripts/preprocess)
-- [Xarray/Dask based openEO engine](https://github.com/SARScripts/openeo_odc_driver)
-- [use cases notebooks](https://github.com/SARScripts/SAR2Cube_use_cases).
 
