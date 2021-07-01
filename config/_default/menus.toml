@@ -13,21 +13,26 @@
   url = "#overview"
   weight = 15
 
-[[main]]
-  name = "Background"
-  url = "#introduction"
-  weight = 20
+#[[main]]
+#  name = "Background"
+#  url = "#introduction"
+# weight = 20
   
 [[main]]
   name = "Architecture"
   url = "#architecture"
-  
   weight = 30
+  
 [[main]]
   name = "Use Cases"
   url = "#usecases"
+  weight = 40 
   
-  weight = 40  
+[[main]]
+  name = "How to"
+  url = "#howto"
+  weight = 45
+  
 [[main]]
   name = "Conferences"
   url = "#conferences"
@@ -63,6 +68,11 @@
   url = "#people"
   weight = 60
 
+[[main]]
+  name = "Code"
+  url = "#code"
+  weight = 65
+  
 [[main]]
   name = "Contact"
   url = "#contact"

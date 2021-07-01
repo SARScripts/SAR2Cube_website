@@ -4,11 +4,11 @@
 # Add more sections by duplicating this file and customizing to your requirements.
 
 widget = "blank"  # See https://wowchemy.com/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+headless = false  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 65  # Order that this section will appear.
 
-title = "Methods"
+title = "Code"
 subtitle = ""
 
 [design]
@@ -49,13 +49,14 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-The address the research questions, we focus on three different approaches:
 
-1. Using AI and ground control points in the two mountain regions to assess the accuracy of the WTE data for those areas
-2. Direct spatial downscaling of the existing 250 m ecosystem map to 30 m using high resolution EO data.
-3. Downscaling of the WTE land cover information to generate first a high-resolution land cover map and convert this into a high-resolution ecosystem map following the approach by [Sayre et al. (2020)](https://www.sciencedirect.com/science/article/pii/S2351989419307231?via%3Dihub)
+<div align="left">
+    <img style="float:center" src="https://github.com/fluidicon.png" width=80px/>
+</div>
 
-<p align="center">
-  <img src="/media/Methods.png">
-  <em>Flowchart of the proposed approach to validate and downscale the World Terrestrial Ecosystems product using high-resolution Earth observation data. </em>
-</p>
+The development of SAR2Cube is fully open-source and the code is publicly available on GitHub:
+
+- [preprocessing](https://github.com/SARScripts/preprocess)
+- [Xarray/Dask based openEO engine](https://github.com/SARScripts/openeo_odc_driver)
+- [use cases notebooks](https://github.com/SARScripts/SAR2Cube_use_cases).
+

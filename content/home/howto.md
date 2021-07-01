@@ -4,11 +4,11 @@
 # Add more sections by duplicating this file and customizing to your requirements.
 
 widget = "blank"  # See https://wowchemy.com/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+headless = false  # This file represents a page section.
+active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Methods"
+title = "How to"
 subtitle = ""
 
 [design]
@@ -49,13 +49,12 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-The address the research questions, we focus on three different approaches:
+How to access and use the SAR2Cube data and processing infrastructure?
 
-1. Using AI and ground control points in the two mountain regions to assess the accuracy of the WTE data for those areas
-2. Direct spatial downscaling of the existing 250 m ecosystem map to 30 m using high resolution EO data.
-3. Downscaling of the WTE land cover information to generate first a high-resolution land cover map and convert this into a high-resolution ecosystem map following the approach by [Sayre et al. (2020)](https://www.sciencedirect.com/science/article/pii/S2351989419307231?via%3Dihub)
+We have created a specific video tutorial explaining how to perform basic and more advanced operations using the openEO Web Editor.
 
-<p align="center">
-  <img src="/media/Methods.png">
-  <em>Flowchart of the proposed approach to validate and downscale the World Terrestrial Ecosystems product using high-resolution Earth observation data. </em>
-</p>
+Feedback or issues? Please contact us!
+
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uR3HcmW1eFs" title="SAR2Cube tutorial" frameborder="0" allow="accelerometer; picture-in-picture" allowfullscreen></iframe>
+</div>

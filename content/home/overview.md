@@ -49,19 +49,14 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-<span>
-SAR2Cube - A framework for an efficient setup of SAR imagery in analysis ready data cubes
-    
-- Time span: February 2020 - May 2021
-
 - Project lead: [Eurac Research](https://www.eurac.edu/en/research/mountains/remsen/Pages/default.aspx), Bolzano, Italy
-
 - Partner: [Dares Technology](http://dares.tech/), Barcelona, Spain
+<span> 
+SAR2CUBE as a project foresees the development of a processing chain and prototype implementation for organizing Sentinel-1 SLC data in efficient data cubes, both from the point of view of the data provider and from the point of view of the consumer of the data, to foster the uptake of SAR data into everyday processing chains. This comprises three main layers, pre-processing, data cube setup and post processing on the fly. Different implementation scenarios have been benchmarked, including necessary space requirements for hosting the data, speed of access from the user perspective and processing speed. Finally, three use cases have been defined to test the suitability of the developed SAR data cubes for analysis chains, including analysis of terrain motion with PSI techniques, land cover classification based on interferometric coherence and change detection based on back scatter time series.
 </span>
 
-<div align="center">
-    <img style="float:left; margin:25px" src="/media/logo_eurac.png" width=200px/>
+<div align="left">
+    <img style="float:left; margin:25px" src="/media/eurac_logo.png" width=200px/>
     <img style="float:left; margin:25px" src="/media/dares_logo.png" width=200px/>
     <img style="float:left; margin:25px" src="/media/esa_logo.png" width=200px/>
 </div>
